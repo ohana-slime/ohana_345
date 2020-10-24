@@ -1,0 +1,49 @@
+*{
+  margin: 0;
+  border: 0;
+  padding: 1em;
+  font-family: 'Noto Serif JP', serif;
+  background-color: #d8bfd8;
+  outline: none;
+  color: white;
+}
+
+nav{
+  position: static;
+  position: -webkit-sticky;
+  top: 5%;
+  left: 0;
+  padding: 0.5em 0;
+  box-shadow: 0 1px 5px;
+}
+
+nav ul{
+  display: flex;
+  justify-content: space-around;
+  list-style: none;
+}
+
+nav li{
+  margin: 3em auto;
+  padding: 0 2em;
+  padding-top: 100px;
+}
+
+ul{
+  list-style: none;
+}
+
+h1,section h2{
+  color: white;
+  font-size: 30px;
+  text-shadow: 1px 1px 2px #fff;
+}
+
+#manual1 h3,#manual2 h3,#manual3 h3,#manual4 h3,#manual5 h3{
+  border-left: thick solid #ffe4e1;
+  padding-left: 5px;
+}
+
+footer{
+  text-align: center;
+}
